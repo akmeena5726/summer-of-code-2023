@@ -1,0 +1,187 @@
+body {
+    font-family: 'Cambay', sans-serif;
+}
+
+
+/* navbar */
+.navigation {
+    padding: 1rem 5rem 0 12rem;
+}
+
+.logo {
+    color: #4A99D3;
+    font-family: 'ABeeZee';
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.home,
+.about,
+.contact {
+    text-decoration: none;
+    /* padding-left: 50px; */
+    color: var(--text-color, #0F001A);
+    font-size: 18px;
+}
+
+a:active {
+    color: lightblue;
+}
+
+
+/* carousel */
+
+.carousel {
+    margin-top: 3rem;
+}
+
+.left,
+.right {
+    height: 50px;
+    width: 50px;
+    background-color: #4A99D3;
+    border: none;
+}
+
+.left {
+    border-radius: 5px 0 0 5px;
+}
+
+.right {
+    border-radius: 0 5px 5px 0;
+}
+
+.beauty-img {
+    width: 100%;
+}
+
+
+/* cards */
+
+.cards {
+    margin-top: 5rem;
+    margin-bottom: 8rem;
+}
+
+.section-heading {
+    color: #260041;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 46px;
+    letter-spacing: 1.8px;
+    margin-bottom: 3.5rem;
+}
+
+.card {
+    width: 380px;
+    height: 425px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 5px 20px 50px 0px rgba(74, 153, 211, 0.20);
+}
+
+.card-heading,
+.card-details,
+.learn {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1.2rem;
+}
+
+.card-img {
+    width: 182px;
+    height: 132px;
+    margin-top: 2.75rem;
+}
+
+.card-details {
+    color: var(--text-color, #0F001A);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.learn-more {
+    margin-right: 1rem;
+    color: #4A99D3;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+}
+
+
+/* Help section */
+
+.help {
+    height: 440px;
+    background: rgba(74, 153, 211, 0.10);
+}
+
+.help-heading {
+    padding-top: 95px;
+    color: #4A99D3;
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+
+
+/* customer review */
+
+.review {
+    height: 588px;
+    margin-top: 5rem;
+}
+
+.review-heading {
+    text-align: center;
+    color: var(--text-color, #0F001A);
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.quote-mark {
+    font-size: 50px;
+    margin-bottom: 2rem;
+}
+
+.quote-info {
+    color: var(--text-color, #0F001A);
+    font-size: 16px;
+    line-height: 24px;
+    width: 418px;
+    opacity: 0.5;
+    margin-bottom: 1rem;
+}
+
+.name {
+    color: var(--text-color, #0F001A);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* footer */
+
+.footer {
+    height: 107.345px;
+    background: #4A99D3;
+}
+
+.footer-content {
+    padding-top: 2.5rem;
+}
+
+.footer-logo {
+    color: #FFF;
+    font-size: 30px;
+    margin-left: 2rem;
+    font-weight: 700;
+}
+
+.developer-name {
+    color: #FFF;
+    margin-right: 1rem;
+    font-weight: 500;
+}
